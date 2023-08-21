@@ -20,7 +20,7 @@ function createCookiePopup(backgroundColor = '#fff', roundedCorners = 'rounded',
             // Create the "Cookie Policy" link
             var cookiePolicyLink = document.createElement('a');
             cookiePolicyLink.href = '/cookie-policy';
-            cookiePolicyLink.textContent = 'View Cookie Policy';
+            cookiePolicyLink.textContent = 'Cookie Policy';
             linksContainer.appendChild(cookiePolicyLink);
 
             // Create the "Privacy Policy" link
