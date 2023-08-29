@@ -82,7 +82,7 @@ function createCookiePopup(backgroundColor = '#fff', roundedCorners = 'rounded',
             var links = cookiePopup.querySelectorAll('a');
             links.forEach(function(link) {
                 link.style.transition = 'opacity 0.3s';
-                link.style.color = "inherit";
+                link.style.color = 'inherit';
                 link.addEventListener('mouseover', function() {
                     link.style.opacity = '1';
                 });
