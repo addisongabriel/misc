@@ -44,6 +44,7 @@ function createCookiePopup(backgroundColor = '#fff', roundedCorners = 'rounded',
             cookiePopup.style.position = 'fixed';
             cookiePopup.style.bottom = '20px';
             cookiePopup.style.left = '20px';
+            cookiePopup.style.right = '20px';
             cookiePopup.style.background = backgroundColor;
 
             // Set text color based on background brightness
