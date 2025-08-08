@@ -8,8 +8,8 @@
     popup.innerHTML = `
       <div>This website uses cookies to ensure you get the best experience on our website.</div>
       <div class="button-group">
-        <a href="/privacy-policy" class="cookie-consent_link">Privacy Policy</a>
         <a href="/cookie-policy" class="cookie-consent_link">Cookie Policy</a>
+        <a href="/privacy-policy" class="cookie-consent_link">Privacy Policy</a>
       </div>
       <a href="#" class="cookie-consent_button w-button">Agree&nbsp;&amp;&nbsp;Close</a>
     `;
