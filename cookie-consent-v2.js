@@ -26,3 +26,9 @@
   // expose globally
   window.createCookiePopup = createCookiePopup;
 })(window, document);
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', createCookiePopup);
+} else {
+  createCookiePopup();
+}
